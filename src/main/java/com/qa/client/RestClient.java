@@ -12,6 +12,8 @@ public class RestClient {
 	
 	public CloseableHttpResponse get(String url) throws ClientProtocolException, IOException{
 		
+		//Test Comment
+		
 		CloseableHttpClient httpClient = HttpClients.createDefault();
 		HttpGet httpget = new HttpGet(url); //http get request
 		CloseableHttpResponse closebaleHttpResponse =  httpClient.execute(httpget);
